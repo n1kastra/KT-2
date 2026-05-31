@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FitLife</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <h1>FitLife</h1>
+
+        <div class="menu-info">
+            <p>Корзина: <span id="cart-count">0</span></p>
+            <button id="theme-btn">Сменить тему</button>
+        </div>
+    </nav>
+</header>
+
+<main>
+
+    <section class="hero">
+        <h2>Спортивное питание для достижения целей</h2>
+        <p>Лучшие добавки для силы, массы и восстановления.</p>
+
+        <a href="#products" class="hero-btn">
+            Подробнее
+        </a>
+    </section>
+
+    <section class="products" id="products">
+
+        <h2>Популярные товары</h2>
+
+        <div class="product-grid">
+
+            <article class="card">
+                <img src="img/protein.jpg" alt="Протеин">
+
+                <h3>Протеин</h3>
+
+                <p>Высококачественный сывороточный белок.</p>
+
+                <button class="buy-btn">В корзину</button>
+                <button class="remove-btn">-</button>
+            </article>
+
+            <article class="card">
+                <img src="img/creatine.jpg" alt="Креатин">
+
+                <h3>Креатин</h3>
+
+                <p>Увеличивает силу и выносливость.</p>
+
+                <button class="buy-btn">В корзину</button>
+                <button class="remove-btn">-</button>
+            </article>
+
+            <article class="card">
+                <img src="img/bcaa.jpg" alt="BCAA">
+
+                <h3>BCAA</h3>
+
+                <p>Помогает восстановлению мышц.</p>
+
+                <button class="buy-btn">В корзину</button>
+                <button class="remove-btn">-</button>
+            </article>
+
+        </div>
+
+    </section>
+
+    <section class="slider-section">
+
+        <h2>Отзывы клиентов</h2>
+
+        <div class="slider">
+
+            <button id="prev-btn">←</button>
+
+            <p id="slide-text">
+                Лучший магазин спортивного питания!
+            </p>
+
+            <button id="next-btn">→</button>
+
+        </div>
+
+    </section>
+
+    <section class="form-section">
+
+        <h2>Оставить заявку</h2>
+
+        <form>
+
+            <input type="text" placeholder="Имя">
+
+            <input type="text" placeholder="Фамилия">
+
+            <input type="email" placeholder="Email">
+
+            <input type="tel" placeholder="Телефон">
+
+            <select>
+                <option>Интересующий товар</option>
+                <option>Протеин</option>
+                <option>Креатин</option>
+                <option>BCAA</option>
+            </select>
+
+            <button type="submit">
+                Отправить
+            </button>
+
+        </form>
+
+    </section>
+
+</main>
+
+<footer>
+    <p>© 2025 FitLife</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
